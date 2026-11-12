@@ -1,0 +1,23 @@
+# Audit outputs from Test-CliAgents.ps1
+cli-audit-*/
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets / local env
+.env
+.env.*
+*.pem
+*.key
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+*.pdf
